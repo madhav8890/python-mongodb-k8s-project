@@ -263,11 +263,6 @@ These settings ensure efficient resource utilization and cluster stability.
 
 ### Testing Scenarios
 
-#### 1. Autoscaling
-
-- Simulate high traffic using `siege` or `ab` (Apache Benchmark) to generate requests to the Flask application.
-- Monitor the HPA to see if it scales the replicas up and down based on CPU usage.
-
 #### 2. Database Interaction
 
 - Test inserting and retrieving data using the `/data` endpoint to verify that the Flask application interacts correctly with MongoDB.
