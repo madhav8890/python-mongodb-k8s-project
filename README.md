@@ -263,11 +263,11 @@ These settings ensure efficient resource utilization and cluster stability.
 
 ### Testing Scenarios
 
-#### 2. Database Interaction
+#### 1. Database Interaction
 
 - Test inserting and retrieving data using the `/data` endpoint to verify that the Flask application interacts correctly with MongoDB.
 
-#### 3. Persistence
+#### 2. Persistence
 
 - Delete the MongoDB pod and verify that the data persists by checking the data after the pod is recreated. This ensures that the persistent volume is functioning as expected.
 
